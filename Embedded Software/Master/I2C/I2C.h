@@ -1,0 +1,14 @@
+#ifndef I2C_I2C_H_
+#define I2C_I2C_H_
+//define Pin
+#define SCL0 GPIO_PB2_I2C0SCL //PA6 tren Tiva C
+#define SDA0 GPIO_PB3_I2C0SDA //PA7 tren Tiva C
+#define EN_I2C0 SYSCTL_PERIPH_I2C0
+#define I2C0 I2C0_BASE
+#define START_I2C I2C_MASTER_CMD_BURST_SEND_START
+#define CONT_I2C I2C_MASTER_CMD_BURST_SEND_CONT
+#define FINISH_I2C I2C_MASTER_CMD_BURST_SEND_FINISH
+#define SINGLE_I2C I2C_MASTER_CMD_SINGLE_SEND
+// extern ham
+extern void Config_I2C0(void);
+#endif
