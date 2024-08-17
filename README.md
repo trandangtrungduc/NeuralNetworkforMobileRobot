@@ -15,7 +15,7 @@
     - Two Arduino Nano microcontrollers act as slaves. These two microcontrollers receive the set speed value from the master and implement PID algorithm to control wheel speed.
 2. Drawings: folder containing mechanical design drawings, control algorithm design drawings and wiring diagrams of the mobile robot.
 3. Demo: folder containing experimental results.
-4. Simulation: folder contraining mobile robot simulations using neural network controller and computation tools (Matlab).
+4. Simulation: folder containing mobile robot simulations using neural network controller and computation tools (Matlab).
 5. Architecture: folder containing python code for designing and training neural networks controller.
 
 ## Acknowledgement
