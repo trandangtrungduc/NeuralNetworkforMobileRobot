@@ -1,14 +1,13 @@
-# Neural Network Controller for Mobile robot
-
-## Demo
-
-![Map Number 8](Docs\map_number_8.gif)
-
-![Random Map](Docs\random_map.gif)
+# Neural Network Controller for Mobile Robot
 
 ## Overview
 - This is a small project suitable for students who are studying majors such as mechatronics, electronics, automation, information technology, ... or research on mobile robots at universities.
 - Dependency: Code Composer Studio, Matlab, Arduino IDE, Python, Autocad, Solidworkds, Altium.
+
+## Demo
+![Map Number 8](Docs/map_number_8.gif)
+
+![Random Map](Docs/random_map.gif)
 
 ## Implementation
 1. Embedded Software:
